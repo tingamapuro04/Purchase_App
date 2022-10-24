@@ -3,8 +3,7 @@ class CreateGroups < ActiveRecord::Migration[7.0]
     create_table :groups do |t|
       t.string :name
       t.string :icon
-      t.references :author_id, null: false, foreign_key: true
-
+      t.belongs_to :user, foreign_key: true, index: true
       t.timestamps
     end
   end
