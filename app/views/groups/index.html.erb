@@ -2,10 +2,11 @@
 
 <div id="groups">
   <% @groups.each do |group| %>
-    <%= render group %>
-    <p>
-      <%= link_to "Show this group", group %>
-    </p>
+    <%= link_to group_path(group) do %>
+    <p>Name: <%= group.name%></p>
+    <%= image_tag group.image%>
+    <p>Purchases: <%= group.purchases.count %> </p>
+    <% end %>
   <% end %>
 </div>
 
