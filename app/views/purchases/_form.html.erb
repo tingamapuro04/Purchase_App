@@ -23,6 +23,11 @@
   </div>
 
   <div>
+    <%= form.label :groups, style: "display: block" %>
+    <%= form.collection_select :group_ids, Group.order(:name), :id, :name, {}, { multiple: true } %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
