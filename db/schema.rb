@@ -26,6 +26,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_25_044333) do
   create_table "groups_purchases", id: false, force: :cascade do |t|
     t.bigint "group_id", null: false
     t.bigint "purchase_id", null: false
+    t.index ["group_id", "purchase_id"], name: "index_groups_purchases_on_group_id_and_purchase_id"
+    t.index ["purchase_id", "group_id"], name: "index_groups_purchases_on_purchase_id_and_group_id"
   end
 
   create_table "purchases", force: :cascade do |t|
