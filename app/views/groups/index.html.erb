@@ -1,4 +1,4 @@
-<h1>Groups</h1>
+<h1 class="h-center">Groups</h1>
 
 <div id="groups">
   <% @groups.each do |group| %>
@@ -9,11 +9,11 @@
       </div>
       <div class="group-name">
         <p class="txt one"><%= group.name%></p>    
-        <p class="txt two">Purchases:<%= group.purchases.count %> </p>
+        <p class="txt two">Purchases: <%= group.purchases.count %> </p>
       </div>
     </div>
     <% end %>
   <% end %>
 </div>
 
-<%= link_to "New group", new_group_path, class: 'back' %>
+<%= link_to "New group", new_group_path, class: 'back last-back' %>
