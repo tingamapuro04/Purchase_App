@@ -65,6 +65,6 @@ class PurchasesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def purchase_params
-    params.require(:purchase).permit(:name, :amount, :image, :group_ids=>[]).merge(user: current_user)
+    params.require(:purchase).permit(:name, :amount, :image, group_ids: []).merge(user: current_user)
   end
 end
