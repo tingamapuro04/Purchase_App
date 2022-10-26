@@ -2,7 +2,7 @@
 
 <div id="groups">
   <% @groups.each do |group| %>
-    <%= link_to group_path(group) do %>
+    <%= link_to group_path(group), class: 'mobutu' do %>
     <div class="group-item">
       <div class="group-img">
         <%= image_tag group.image, class: 'img' %>
@@ -16,4 +16,4 @@
   <% end %>
 </div>
 
-<%= link_to "New group", new_group_path %>
+<%= link_to "New group", new_group_path, class: 'back' %>

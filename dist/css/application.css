@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 .body {
   background: #e5eae5;
 }
@@ -24,6 +23,7 @@
   width: 95%;
   padding: 5px;
   display: flex;
+  gap: 3%;
 }
 
 .purchase_second {
@@ -39,6 +39,29 @@
   width: 25%;
 }
 
+a {
+  color: #fff !important;
+  padding: 2px 8px;
+}
+
+a.back {
+  color: #fff !important;
+  padding: 2px 8px;
+  background: #368cfe;
+  border-radius: 16px;
+  margin-left: 2.5%;
+}
+
 .link1 {
   color: #fff;
 }
+
+.back-link {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5%;
+}
+
+.back2 {
+  padding-bottom: 30px;
+}/*# sourceMappingURL=application.css.map */

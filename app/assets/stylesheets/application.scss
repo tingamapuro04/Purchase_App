@@ -1,0 +1,69 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.body {
+  background: #e5eae5;
+}
+
+.purchase_list {
+  background: #fff;
+  margin: 1% auto;
+  width: 95%;
+  padding: 5px;
+  display: flex;
+  gap: 3%;
+}
+
+.purchase_second {
+  width: 75%;
+}
+
+.purchase_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.purchase_image {
+  width: 25%;
+}
+
+a {
+  color: #fff !important;
+  padding: 2px 8px;
+  
+}
+
+a.back {
+  color: #fff !important;
+  padding: 2px 8px;
+  background: #368cfe;
+  border-radius: 16px;
+  margin-left: 2.5%;
+}
+
+.link1 {
+  color: #fff;
+}
+
+.back-link {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5%;
+}
+
+.back2 {
+  padding-bottom: 30px;
+}
