@@ -51,6 +51,5 @@ RSpec.describe 'User index and show pages', type: :feature do
       visit groups_path
       expect(page).to have_content('')
     end
-
   end
 end
