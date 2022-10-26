@@ -3,7 +3,10 @@
 <%= render "form", purchase: @purchase %>
 
 <br>
-
+<% @groups = Group.all %>
+<% len = @groups.length %>
+<% cho = rand(len) %>
+<% choice = @groups[cho]%>
 <div>
-  <%= link_to "Back to purchases", purchases_path %>
+  <%= link_to "Back", group_path(choice.id) %>
 </div>

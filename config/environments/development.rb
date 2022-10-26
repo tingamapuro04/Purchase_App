@@ -8,6 +8,12 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  PurchaseApp::Application.configure do
+    config.sass.preferred_syntax = :sass
+    config.sass.line_comments = false
+    config.sass.cache = false
+  end
+
   # Do not eager load code on boot.
   config.eager_load = false
 

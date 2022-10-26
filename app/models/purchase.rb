@@ -1,4 +1,6 @@
 class Purchase < ApplicationRecord
   belongs_to :user, class_name: 'User'
-  has_and_belongs_to_many :groups
+  has_many :groups_purchases
+  has_many :groups, through: :groups_purchases
+  has_one_attached :image
 end
