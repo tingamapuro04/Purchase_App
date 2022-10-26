@@ -6,4 +6,5 @@ class User < ApplicationRecord
          :confirmable
   has_many :purchases, foreign_key: :user_id, dependent: :destroy
   has_many :groups, dependent: :destroy
+  validates :name, :email, presence: true
 end
