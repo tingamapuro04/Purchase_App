@@ -1,6 +1,6 @@
 .group-item {
   display: flex;
-  width: 75%;
+  width: 95%;
   margin: 5px auto;
   align-items: center;
   background-color: #e3f2fd;
@@ -24,7 +24,8 @@
 
 .img {
   width: 100%;
-  border-radius: 24px;
+  border-radius: 4px;
+  height: 100%;
 }
 
 .group-name {
@@ -38,7 +39,6 @@
 .one {
   margin-right: 30px;
   margin-left: 0;
-  text-decoration: underline;
   color: #555;
 }
 
@@ -56,9 +56,13 @@ a {
 }
 
 .txt {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .name-hh {
   color: rgb(106, 98, 98);
+}
+
+.last-back {
+  margin-bottom: 5%;
 }/*# sourceMappingURL=group.css.map */
