@@ -28,6 +28,10 @@
 
 .purchase_second {
   width: 75%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .purchase_item {
@@ -59,7 +63,7 @@ input.back3 {
   color: #fff;
   padding: 2px 8px;
   background: #368cfe;
-  border-radius: 16px;
+  border: none;
   margin-left: 2.5%;
   font-size: 1.2rem;
 }
@@ -80,4 +84,47 @@ a.back3 {
 
 .back2 {
   padding-bottom: 30px;
+}
+
+.form {
+  width: 60%;
+  margin: 1% auto;
+}
+
+.welcome {
+  width: 60%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.welcome-head {
+  font-size: 5rem;
+  color: #368cfe;
+}
+
+.welcome-p {
+  font-size: 2rem;
+  color: #ed6a5a;
+}
+
+.backend {
+  font-size: 4rem;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: #fff;
+  color: #f00699;
+}
+
+.last-field {
+  margin-bottom: 3.2%;
+}
+
+.h-center {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #368cfe;
+}
+
+input.back4 {
+  margin-left: 0;
 }/*# sourceMappingURL=application.css.map */

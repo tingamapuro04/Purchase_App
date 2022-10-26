@@ -1,4 +1,4 @@
-<h1>New purchase</h1>
+<h1 class="h-center" >New purchase</h1>
 
 <%= render "form", purchase: @purchase %>
 
@@ -8,5 +8,5 @@
 <% cho = rand(len) %>
 <% choice = @groups[cho]%>
 <div>
-  <%= link_to "Back", group_path(choice.id) %>
+  <%= link_to "Back", group_path(choice.id), class: 'back' %>
 </div>
