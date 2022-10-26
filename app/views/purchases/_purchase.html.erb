@@ -1,14 +1,21 @@
-<div id="<%= dom_id purchase %>">
+<div id="<%= dom_id purchase %>", class="purchase_list">
+
+  <div class="purchase_image">
+    <%= image_tag(purchase.image, style: "height:100px")  %>
+  </div>
   
+  <div class="purchase_second">
+    <div class="purchase_item">
+      <p>
+        <%= purchase.name %>
+      </p>
 
-  <p>
-    <strong>Name:</strong>
-    <%= purchase.name %>
-  </p>
-
-  <p>
-    <strong>Amount:</strong>
-    <%= purchase.amount %>
-  </p>
+      <p>
+        $<%= purchase.amount %>
+      </p>
+    </div>
+    <% mobutu = purchase.updated_at %>
+    <p> <%= mobutu %> </p>
+  </div>
 
 </div>

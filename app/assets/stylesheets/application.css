@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+.body {
+  background: #e5eae5;
+}
+
+.purchase_list {
+  background: #fff;
+  margin: 1% auto;
+  width: 95%;
+  padding: 5px;
+  display: flex;
+}
+
+.purchase_second {
+  width: 75%;
+}
+
+.purchase_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.purchase_image {
+  width: 25%;
+}

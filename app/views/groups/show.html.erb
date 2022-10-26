@@ -6,11 +6,12 @@
 
 <h1>Total Amount: <%= total %> </h1>
 
-<%= render @group.purchases %>
+<%= render @group.purchases.order(:created_at).reverse_order.limit(5) %>
 
 <div>
   <%= link_to "Edit this group", edit_group_path(@group) %> |
   <%= link_to "Back to groups", groups_path %>
 
   <%= button_to "Destroy this group", @group, method: :delete %>
+  <%= link_to "New purchase", new_purchase_path %>
 </div>
