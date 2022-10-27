@@ -1,9 +1,3 @@
-<% total_amount = @group.purchases %>
-<% @total = 0 %>
-<% total_amount.each do |item| %>
-  <% @total += item.amount %>
-<% end %>
-
 <div class="group-head" >
   <h1 class="name-hh"> <%= @group.name %> </h1>
   <h1> $<%= @group.purchases.sum('amount') %> </h1>

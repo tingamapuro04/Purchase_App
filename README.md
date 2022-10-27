@@ -18,7 +18,7 @@ An app where a user is able to select items based on a category and also be able
 [Purchase-App](https://naivas-purchase.herokuapp.com)
 
 ## Video Presentation
-[Live Presentation](https://www.loom.com/share/1db585d82cb54eefb652e5e4e0d35908)
+[Live Presentation](https://www.loom.com/share/2259fd13609b4b27a958b1a384942a03)
 
 
 ## Getting Started
