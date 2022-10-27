@@ -9,36 +9,40 @@ An app where a user is able to select items based on a category and also be able
 
 ## Built With
 
-- Ruby, javascript, css
+- Ruby, javascript, css, sass
 - Ruby on rails
+- Devise
+- Bootstrap
 
 ## Live Version
-[Purchase-App]('https://naivas-purchase.herokuapp.com')
+[Purchase-App](https://naivas-purchase.herokuapp.com)
 
 ## Video Presentation
-[Presentation]('https://www.loom.com/share/1db585d82cb54eefb652e5e4e0d35908')
+[Live Presentation](https://www.loom.com/share/1db585d82cb54eefb652e5e4e0d35908)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Laptop
 - Text editor
-- Knowledge of ruby
+- Knowledge of ruby, html, css, javascript and Bootstrap
 
 ### Setup
-Clone this project from git hub
+- Clone this project from git hub
+- [Project](https://github.com/tingamapuro04/Purchase_App)
+- Depending on the machine you use open the terminal and clone the project by running
+- git clone https://github.com/tingamapuro04/Purchase_App
+- Change the working directory to Purchase_App by running
+- cd Purchase_App
+
 
 ### Install
--Run bundle install
-
-
-
+- Once inside the Purchase_App directory install all the gems and other required resources
+- Run bundle install
+- Run rails server to see the app on your browser
 
 
 ## Authors
@@ -46,13 +50,14 @@ Clone this project from git hub
 👤 **Alphonce Mobutu**
 
 - GitHub: [@githubhandle](https://github.com/tingamapuro04)
+- LinkedIn: [@adoyo_alphonce](https://www.linkedin.com/in/adoyo-alphonce/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tingamapuro04/Purchase_App/issues/10).
 
 ## Show your support
 
@@ -65,7 +70,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
