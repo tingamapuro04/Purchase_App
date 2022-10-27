@@ -66,6 +66,20 @@ a {
   color: rgb(106, 98, 98);
 }
 
-.last-back {
-  margin-bottom: 5%;
+a.back8 {
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 5% calc((100% - 35%)/2);
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button.btn-1 {
+  background: rgba(0, 130, 0, 0.75);
+  width: 100%;
+  margin: 5% 0 0 0;
+  padding: 7% 5%;
+  border: none;
 }

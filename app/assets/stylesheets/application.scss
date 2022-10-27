@@ -14,8 +14,16 @@
  *= require_self
  */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .body {
   background: #e5eae5;
+  width: 100%;
 }
 
 .purchase_list {

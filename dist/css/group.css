@@ -9,7 +9,7 @@
   overflow: auto;
   z-index: 5;
   border-radius: 2px;
-  box-shadow: 2px 2px #888888;
+  box-shadow: 2px 2px #888;
 }
 
 .group-head {
@@ -66,6 +66,20 @@ a {
   color: rgb(106, 98, 98);
 }
 
-.last-back {
-  margin-bottom: 5%;
+a.back8 {
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 5% 32.5%;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button.btn-1 {
+  background: rgba(0, 130, 0, 0.75);
+  width: 100%;
+  margin: 5% 0 0 0;
+  padding: 7% 5%;
+  border: none;
 }/*# sourceMappingURL=group.css.map */
