@@ -9,7 +9,7 @@
   <h1> $<%= total %> </h1>
 </div>
 
-<%= render @group.purchases.order(:created_at).reverse_order.limit(5) %>
+<%= render @group.purchases.includes(image_attachment: :blob).order(:created_at).reverse_order.limit(5) %>
 
 <div class="back-link">
   <% link_to "Edit this group", edit_group_path(@group) %> 
