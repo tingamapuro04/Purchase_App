@@ -4,5 +4,5 @@ class Purchase < ApplicationRecord
   has_many :groups, through: :groups_purchases
   has_one_attached :image
 
-  validates :name, :amount, presence: true
+  validates :name, :amount, :image, presence: true
 end
