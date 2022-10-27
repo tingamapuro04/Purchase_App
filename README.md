@@ -12,6 +12,8 @@ An app where a user is able to select items based on a category and also be able
 - Ruby, javascript, css
 - Ruby on rails
 
+## Live Version
+[Purchase-App]('https://naivas-purchase.herokuapp.com')
 
 
 ## Getting Started
