@@ -3,10 +3,13 @@
   width: 95%;
   margin: 5px auto;
   align-items: center;
-  background-color: #e3f2fd;
+  background-color: #fff;
   padding: 1% 2%;
   gap: 5%;
   overflow: auto;
+  z-index: 5;
+  border-radius: 2px;
+  box-shadow: 2px 2px #888;
 }
 
 .group-head {
