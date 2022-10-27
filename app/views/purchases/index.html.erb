@@ -1,0 +1,12 @@
+<h1 class="h-center" >Purchases</h1>
+
+<div id="purchases">
+  <% @purchases.each do |purchase| %>
+    <%= render purchase %>
+    <p>
+      <%= link_to "Show this purchase", purchase, class: 'back' %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New purchase", new_purchase_path, class: 'back back2' %>

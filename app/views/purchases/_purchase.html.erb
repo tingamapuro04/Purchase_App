@@ -1,0 +1,22 @@
+<div id="<%= dom_id purchase %>", class="purchase_list">
+  <% mon = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'] %>
+
+  <div class="purchase_image">
+    <%= image_tag(purchase.image, style: 'width:100%')  %>
+  </div>
+  
+  <div class="purchase_second">
+    <div class="purchase_item">
+      <p class="name-p">
+        <%= purchase.name %>
+      </p>
+
+      <p class="amount-p">
+        $<%= purchase.amount %>.00
+      </p>
+    </div>
+    <% mobutu = purchase.updated_at %>
+    <p class="updated"> <%= mobutu.day %> <%= mon[mobutu.month]%> <%= mobutu.year %> </p>
+  </div>
+
+</div>

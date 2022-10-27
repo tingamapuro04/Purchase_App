@@ -1,0 +1,68 @@
+.group-item {
+  display: flex;
+  width: 95%;
+  margin: 5px auto;
+  align-items: center;
+  background-color: #e3f2fd;
+  padding: 1% 2%;
+  gap: 5%;
+  overflow: auto;
+}
+
+.group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px 12px;
+  background: rgba(220, 217, 207, 0.5);
+}
+
+.group-img {
+  width: 25%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.group-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 74%;
+}
+
+.one {
+  margin-right: 30px;
+  margin-left: 0;
+  color: #555;
+}
+
+.two {
+  color: orange;
+}
+
+a.mobutu {
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.txt {
+  font-size: 1.5rem;
+}
+
+.name-hh {
+  color: rgb(106, 98, 98);
+}
+
+.last-back {
+  margin-bottom: 5%;
+}/*# sourceMappingURL=group.css.map */

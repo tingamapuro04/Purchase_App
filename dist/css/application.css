@@ -1,0 +1,131 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.body {
+  background: #e5eae5;
+}
+
+.purchase_list {
+  background: #fff;
+  margin: 1% auto;
+  width: 95%;
+  padding: 5px;
+  display: flex;
+  gap: 3%;
+}
+
+.purchase_second {
+  width: 75%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.purchase_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.purchase_image {
+  width: 25%;
+}
+
+p.alert {
+  margin: 0;
+}
+
+a {
+  padding: 2px 8px;
+}
+
+a.back {
+  color: #fff !important;
+  padding: 4px 8px;
+  background: #368cfe;
+  border-radius: 16px;
+  margin-left: 2.5%;
+  font-size: 1.2rem;
+}
+
+input.back3 {
+  color: #fff;
+  padding: 2px 8px;
+  background: #368cfe;
+  border: none;
+  margin-left: 2.5%;
+  font-size: 1.2rem;
+}
+
+a.back3 {
+  color: red;
+}
+
+.link1 {
+  color: #fff;
+}
+
+.back-link {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5%;
+}
+
+.back2 {
+  padding-bottom: 30px;
+}
+
+.form {
+  width: 60%;
+  margin: 1% auto;
+}
+
+.welcome {
+  width: 60%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.welcome-head {
+  font-size: 1.7rem;
+  color: #368cfe;
+}
+
+.welcome-p {
+  font-size: 1rem;
+  color: #ed6a5a;
+}
+
+.backend {
+  font-size: 1.5rem;
+  border-radius: 4px;
+  padding: 8px 16px;
+  background: #fff;
+  color: #f00699;
+}
+
+.last-field {
+  margin-bottom: 3.2%;
+}
+
+.h-center {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #368cfe;
+}
+
+input.back4 {
+  margin-left: 0;
+}/*# sourceMappingURL=application.css.map */

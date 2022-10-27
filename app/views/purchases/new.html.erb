@@ -1,0 +1,12 @@
+<h1 class="h-center" >New purchase</h1>
+
+<%= render "form", purchase: @purchase %>
+
+<br>
+<% @groups = Group.all %>
+<% len = @groups.length %>
+<% cho = rand(len) %>
+<% choice = @groups[cho]%>
+<div>
+  <%= link_to "Back", group_path(choice.id), class: 'back' %>
+</div>
