@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-Naivsa Purchase App
+# Naivsa Purchase App
+
 
 > Description the project.
 An app where a user is able to select items based on a category and also be able to know the total cost of items selected
