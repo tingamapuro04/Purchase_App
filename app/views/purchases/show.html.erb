@@ -2,7 +2,7 @@
 
 <div>
   <% link_to "Edit this purchase", edit_purchase_path(@purchase) %> 
-  <%= link_to "Back to purchases", purchases_path, class: 'back' %>
+  <button class="btn-1"> <%= link_to "Back", purchases_path, class: 'back8' %> </button>
 
   <% button_to "Destroy this purchase", @purchase, method: :delete %>
 </div>

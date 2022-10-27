@@ -1,15 +1,11 @@
 .group-item {
   display: flex;
-  width: 95%;
-  margin: 5px auto;
+  width: 100%;
   align-items: center;
-  background-color: #fff;
-  padding: 1% 2%;
-  gap: 5%;
+  gap: 2%;
   overflow: auto;
   z-index: 5;
   border-radius: 2px;
-  box-shadow: 2px 2px #888;
 }
 
 .group-head {
@@ -18,7 +14,8 @@
   justify-content: space-between;
   width: 100%;
   padding: 2px 12px;
-  background: rgba(220, 217, 207, 0.5);
+  background: #fff;
+  margin-bottom: 0;
 }
 
 .group-img {
@@ -26,9 +23,8 @@
 }
 
 .img {
-  width: 100%;
+  width: 90%;
   border-radius: 4px;
-  height: 100%;
 }
 
 .group-name {
@@ -39,18 +35,38 @@
   width: 74%;
 }
 
+.troon {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.group-btn {
+  width: 95%;
+  margin: 1% 2.5%;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  z-index: 10;
+  box-shadow: 2px 2px #888;
+}
+
 .one {
-  margin-right: 30px;
   margin-left: 0;
   color: #555;
 }
 
 .two {
-  color: orange;
+  color: #555;
 }
 
 a.mobutu {
   text-decoration: none;
+  overflow: hidden;
+  height: 15%;
+  margin: 0;
 }
 
 a {
@@ -64,6 +80,7 @@ a {
 
 .name-hh {
   color: rgb(106, 98, 98);
+  font-weight: 400;
 }
 
 a.back8 {
@@ -77,7 +94,7 @@ a.back8 {
 }
 
 button.btn-1 {
-  background: rgba(0, 130, 0, 0.75);
+  background: rgba(3, 183, 3, 0.85);
   width: 100%;
   margin: 5% 0 0 0;
   padding: 7% 5%;

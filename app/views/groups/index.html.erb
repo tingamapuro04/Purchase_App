@@ -4,19 +4,22 @@
 
 <div id="groups">
   <% @groups.each do |group| %>
-    <%= link_to group_path(group), class: 'mobutu' do %>
-    <div class="group-item">
-      <div class="group-img">
-        <%= image_tag group.image, class: 'img' %>
+    <button class="group-btn"> <%= link_to group_path(group), class: 'mobutu' do %>
+      <div class="group-item">
+        <div class="group-img">
+          <%= image_tag group.image, class: 'img' %>
+        </div>
+        <div class="group-name">
+          <div class="troon">
+            <p class="txt one"><%= group.name%></p>
+            <p class="txt two">$ <%= group.purchases.sum('amount') %> </p>
+          </div>
+          <% @date = group.updated_at %>
+          <p class="updated"> <%= @date.day %>  <%= @mon[@date.month] %> <%= @date.year %> </p>
+        </div>
       </div>
-      <div class="group-name">
-        <p class="txt one"><%= group.name%></p>
-        <p class="txt two">Total amount: <%= group.purchases.sum('amount') %> </p>
-        <% @date = group.updated_at %>
-        <p> <%= @date.day %>  <%= @mon[@date.month] %> <%= @date.year %> </p>
-      </div>
-    </div>
-    <% end %>
+      <% end %>
+    </button>
   <% end %>
 </div>
 
