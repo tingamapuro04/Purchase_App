@@ -20,3 +20,14 @@ a {
 .lki {
   color: red;
 }
+
+@media all and (min-width: 768px) {
+  .purchase_item {
+    padding-right: 2%;
+  }
+
+  .name-p,
+  .amount-p {
+    font-size: 2rem;
+  }
+}
