@@ -14,19 +14,31 @@
  *= require_self
  */
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   background: #e5eae5;
+  width: 100%;
 }
 
 .purchase_list {
   background: #fff;
-  margin: 1% auto;
+  margin: 3% auto;
   width: 95%;
   padding: 5px;
   display: flex;
   gap: 3%;
   border-radius: 2px;
   box-shadow: 2px 2px #888;
+  transition: all 0.8s;
+}
+
+.purchase_list:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .purchase_second {
@@ -131,4 +143,15 @@ a.back3 {
 
 input.back4 {
   margin-left: 0;
+}
+
+@media all and (min-width: 1000px) {
+  .purchase_list {
+    width: 85%;
+    margin: 1% 7.5%;
+  }
+
+  a.back {
+    margin-left: 7.5%;
+  }
 }

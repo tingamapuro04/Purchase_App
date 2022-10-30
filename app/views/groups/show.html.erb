@@ -1,21 +1,23 @@
-<% total_amount = @group.purchases %>
-<% total = 0 %>
-<% total_amount.each do |item| %>
-  <% total += item.amount %>
-<% end %>
-
 <div class="group-head" >
   <h1 class="name-hh"> <%= @group.name %> </h1>
-  <h1> $<%= total %> </h1>
+  <h1> $<%= @group.purchases.sum('amount') %> </h1>
 </div>
 
 <%= render @group.purchases.includes(image_attachment: :blob).order(:created_at).reverse_order.limit(5) %>
 
-<div class="back-link">
+<div>
   <% link_to "Edit this group", edit_group_path(@group) %> 
   
-  <%= link_to "Back", groups_path, class: 'back' %>
+  
 
   <% button_to "Destroy this group", @group, method: :delete %>
-  <%= link_to "New purchase", new_purchase_path, class: 'back' %>
+  
 </div>
+
+
+<div class="mokoro">
+<%= link_to "Back", groups_path, class: 'back8' %>
+<%= link_to "Purchase", new_purchase_path, class: 'back8' %>
+</div>
+
+
