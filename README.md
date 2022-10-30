@@ -1,5 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## Preview
+![](./app/assets/images/purchase.jpeg)
+
 # Naivsa Purchase App
 
 
